@@ -20,22 +20,22 @@ It is to determine which primitives, transformations, and spatial logics can sup
 
 ## 3. Research Axes
 
-### Axis 1 — Primitive
+### Axis 1 - Primitive
 Define the elementary unit or pre-unit of the exocortex.
 
-### Axis 2 — Spatiality
+### Axis 2 - Spatiality
 Clarify what kind of space is being designed: relational, topological, spectral, negative, morphogenetic.
 
-### Axis 3 — Memory
+### Axis 3 - Memory
 Determine how memory acts on the architecture instead of merely storing content.
 
-### Axis 4 — Transformation
+### Axis 4 - Transformation
 Identify the core transformations that generate structure from raw material.
 
-### Axis 5 — Navigation
+### Axis 5 - Navigation
 Define what “navigable” means in this context: not only searchability, but perception of proximity, tension, contrast, and latent neighborhoods.
 
-### Axis 6 — Auto-architecture
+### Axis 6 - Auto-architecture
 Explore how the system can progressively reorganize itself through its own operations.
 
 ## 4. Transition to Core
