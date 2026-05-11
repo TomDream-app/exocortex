@@ -2,158 +2,102 @@
 
 ## Role
 
-Integration is the selective threshold after extraction.
+Integration is the selective threshold after log processing.
 
-Extraction unfolds material.
-Integration chooses what actually enters Exocortex.
+Log processing unfolds what emerged.
+Integration decides what actually enters Exocortex.
 
 The goal is not to classify everything.
-The goal is to identify the kernel that changes the system.
+The goal is to keep only what changes the system.
 
-## Position
+## Principle
 
-raw log
-→ structured extraction
-→ integration decision
-→ memory / repo / backlog / outside
+Integration extracts the minimal productive kernel.
 
-## Template
+A kernel may be:
 
-# Integration Decision
+- a decision
+- a concept
+- a method
+- a structural shift
+- a border moment
+- a future action
+- a change in the pipe itself
 
-## Source
+If no kernel is present, nothing should be integrated.
 
-- Extraction:
-- Source log:
-- Status:
+## Local / Global rule
 
-## Kernel
+Every integration decision must read the local and global levels together.
 
-What is the essential element that enters Exocortex?
+Local:
+what happened in this specific log?
 
-## Local function
+Global:
+what does it change in Exocortex?
 
-What does this element do inside this specific log?
-
-## Global function
-
-What does this element change in the Exocortex pipe?
+A local insight should not be integrated unless it has a possible global function.
+A global idea should not be integrated unless it is grounded in the log.
 
 ## References
 
-- invoked:
-- suggested:
-- status:
-
-## Destination
-
-Where does the kernel minimally belong?
-
-## Remainder
-
-What stays outside?
-
-## Next
-
-What is the smallest concrete action?
-
-## References rule
-
-References are not the kernel.
-
-They are brief orientation points used only when they clarify a strong emergence moment.
+References are allowed only when they clarify the kernel.
 
 Allowed statuses:
 
-- none
 - invoked
 - suggested
+- none
 
-## Principle
+References must remain short.
+They must not become commentary.
 
-Extraction unfolds the material.
+## Output shape
 
-Integration chooses the kernel.
+Title: Integration Decision
 
-Only what changes the system should enter Exocortex.# Integration Decisions v0
+Kernel:
+Effect:
+Local / Global:
+References:
+Destination:
+Remainder:
+Next:
 
-## Role
+Fields may be omitted if empty.
 
-Integration decisions define what happens after a log extraction.
+## Destination
 
-The extraction may produce rich material.
-The integration decision selects what enters Exocortex, what remains private, what goes to backlog, and what is discarded.
+The destination must be minimal.
 
-## Position
+Possible destinations:
 
-log
-→ extraction
-→ integration decision
-→ memory / repo / backlog / discard
+- memory
+- guideline
+- core
+- domain
+- app
+- backlog
+- outside
 
-## Possible decisions
+Only one primary destination should be chosen.
 
-### private only
+## Remainder
 
-The material remains outside the public repository.
+The remainder is what stays outside the system.
 
-Use when:
-- the log contains private material,
-- the extraction is still experimental,
-- or the material is not yet stable enough.
+It may include:
 
-### update internal memory
+- raw log
+- full extraction
+- noise
+- repeated material
+- private content
+- premature tooling
+- unresolved ideas
 
-The material should be kept in an internal memory file or private note.
+## Current status
 
-Use when:
-- a project decision was made,
-- a structural distinction emerged,
-- or a useful context should be preserved.
+This v0 is not automated.
 
-### update repo
-
-The material should modify a tracked file in the repository.
-
-Use when:
-- a protocol changes,
-- a core primitive is clarified,
-- a public guideline is improved,
-- or a stable architectural decision affects the project.
-
-### add to backlog
-
-The material is useful but not immediately actionable.
-
-Use when:
-- an idea needs later review,
-- a technical tool may be built later,
-- or a domain/app/module is suggested but not ready.
-
-### discard
-
-The material should not be kept.
-
-Use when:
-- it is noise,
-- accidental paste,
-- terminal artifact,
-- repetition,
-- or non-useful export residue.
-
-## Required fields
-
-Each integration decision should include:
-
-- decision:
-- reason:
-- destination:
-- next gesture:
-
-## Principle
-
-Extraction can be rich.
-
-Integration must remain selective.
-
-The goal is not to push everything into the repository, but to let only stable or useful structures enter the system.
+It is a human-reviewed integration protocol after AI-assisted log processing.
