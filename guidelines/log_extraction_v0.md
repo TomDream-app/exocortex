@@ -1,129 +1,125 @@
-# Log Extraction v0
+# Log Processing v0
+
+## Role
+
+This protocol processes conversational AI logs as material for Exocortex.
+
+A log is not treated as a document to summarize.
+It is treated as a trace of thought in formation.
+
+The goal is to extract the operational residue of the log:
+what it changes, stabilizes, opens, or makes possible inside the thinking environment.
 
 ## Scope
 
-This protocol applies to conversational logs produced through online AI systems.
-
 Exocortex can receive many kinds of notes, fragments and documents.
-However, this v0 focuses on GPT-like conversations and AI chat logs.
 
-## Goal
+This v0 focuses on conversational logs produced through online AI systems.
 
-The goal is not to summarize a conversation.
+## Reading principle
 
-The goal is to extract what can nourish the thinking environment:
-decisions, concepts, tensions, movements, structural candidates, emergence points and next actions.
+Do not apply a fixed template mechanically.
 
-## Process
+Read the log through two scales at once:
 
-1. Identify the main axis of the log.
-2. Extract useful fragments.
-3. Identify thinking movements.
-4. Extract stable decisions.
-5. Detect emerging concepts.
-6. Detect open tensions.
-7. Mark strong emergence moments when they exist.
-8. Add brief conceptual or historical references when relevant.
-9. Propose system destinations.
-10. Define the next operational gesture.
+- local: what happens inside this specific conversation?
+- global: what does this change in the Exocortex pipe?
 
-## Output template
+The output must preserve the relation between local emergence and global architecture.
 
-- Source:
-- Axis:
-- Useful fragments:
-- Thinking movements:
-- Stable decisions:
-- Emerging concepts:
-- Strong emergence moments:
-- Conceptual / historical references:
-- Open tensions:
-- Border markers:
-- Excluded material:
-- System destinations:
-- Validation status:
-- Integration decision:
-- Next gesture:
+## Density rule
 
-## Strong emergence moments
+The output length depends on the log.
 
-A strong emergence moment is a passage where the conversation produces more than clarification.
+Do not compress away emergence.
+Do not expand what has no structural value.
 
-It may include:
-- a new distinction,
-- a shift in level,
-- a concept becoming operative,
-- a structural decision,
-- a new architecture becoming visible,
-- or a future method appearing from the material.
+Use a short output when the log produces only a small decision.
+Use a denser output when the log produces concepts, tensions, architectural shifts, border moments, protocol changes, or future modules.
 
-These moments should be extracted only when they are actually present.
+## Extraction targets
 
-## Conceptual / historical references
+The processor may extract:
 
-References must remain brief.
+- axis of the log
+- emergent kernels
+- operational consequences
+- stable decisions
+- open tensions
+- local/global coupling
+- references
+- border moments
+- system destinations
+- next gesture
 
-Two types are allowed:
+Not every field is required for every log.
 
-1. Invoked references:
-   references explicitly present in the log.
+## Emergent kernel
 
-2. Suggested references:
-   references not present in the log, but useful to situate an emergence point.
+An emergent kernel is the productive residue of the log.
 
-Suggested references must be marked as suggested.
+It is not a summary.
+It is what the log makes newly thinkable, actionable, or structurally available.
+
+A log may contain no kernel, one kernel, or several kernels.
+
+## References
+
+References are kept only when they help situate an emergence point.
+
+Allowed statuses:
+
+- invoked: explicitly present in the log
+- suggested: added briefly to clarify a strong emergence
+
+References must remain short.
+They must not turn the extraction into commentary.
 
 ## Border markers
 
-Use `#border` only for rare moments where the material exceeds ordinary classification and opens a structurally significant threshold.
+Use border markers only when the log produces a rare structural threshold.
 
-A passage may be marked `#border` when at least two of the following are true:
+A border moment may occur when:
 
-- an unusual distinction appears,
-- a concept changes status,
-- a new architecture becomes visible,
-- a strong bifurcation opens,
-- a rare relation becomes productive,
-- the material resists available categories,
-- the passage has high future generativity.
+- a concept changes status
+- the project architecture shifts
+- a new relation becomes productive
+- the material exceeds existing categories
+- a future method appears from the conversation
 
-Do not use `#border` for merely interesting passages.
+Do not use border markers for merely interesting passages.
 
-## Excluded material
+## Output shape
 
-Some material should be ignored or kept out of extraction.
+Use this structure flexibly:
 
-Examples:
-- terminal noise,
-- repeated commands,
-- accidental paste fragments,
-- export artifacts,
-- irrelevant assistant reasoning,
-- private content not useful for the project.
+Title: Log Processing
 
-## Validation status
+Axis:
+Emergent kernels:
+Operational consequences:
+Decisions:
+Local / Global coupling:
+References:
+Border markers:
+Remainder:
+Next:
 
-Possible statuses:
+Fields may be omitted if empty.
 
-- raw
-- reviewed
-- corrected
-- accepted
-- rejected
+## Integration principle
 
-## Integration decision
+Extraction unfolds enough material to see what emerged.
 
-Possible decisions:
+Integration condenses what should affect the system.
 
-- private only
-- update repo
-- update internal memory
-- add to backlog
-- use as test material
-- discard
+Only material that changes memory, transformation, structure, action, guidelines, domains, apps, or future tooling should move downstream.
 
-## Principle
+## Current implementation status
 
-A log extraction is not a final interpretation.
+This v0 is not an automatic engine.
 
-It prepares conversational material so that Exocortex can later use it as memory, transformation, structure or action.
+It is an AI-assisted processing protocol:
+a conversational log is processed through this rule set, then reviewed by a human operator.
+
+Automation may come later only after several logs have revealed stable input and output patterns.
