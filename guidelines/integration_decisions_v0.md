@@ -2,6 +2,83 @@
 
 ## Role
 
+Integration is the selective threshold after extraction.
+
+Extraction unfolds material.
+Integration chooses what actually enters Exocortex.
+
+The goal is not to classify everything.
+The goal is to identify the kernel that changes the system.
+
+## Position
+
+raw log
+→ structured extraction
+→ integration decision
+→ memory / repo / backlog / outside
+
+## Template
+
+# Integration Decision
+
+## Source
+
+- Extraction:
+- Source log:
+- Status:
+
+## Kernel
+
+What is the essential element that enters Exocortex?
+
+## Local function
+
+What does this element do inside this specific log?
+
+## Global function
+
+What does this element change in the Exocortex pipe?
+
+## References
+
+- invoked:
+- suggested:
+- status:
+
+## Destination
+
+Where does the kernel minimally belong?
+
+## Remainder
+
+What stays outside?
+
+## Next
+
+What is the smallest concrete action?
+
+## References rule
+
+References are not the kernel.
+
+They are brief orientation points used only when they clarify a strong emergence moment.
+
+Allowed statuses:
+
+- none
+- invoked
+- suggested
+
+## Principle
+
+Extraction unfolds the material.
+
+Integration chooses the kernel.
+
+Only what changes the system should enter Exocortex.# Integration Decisions v0
+
+## Role
+
 Integration decisions define what happens after a log extraction.
 
 The extraction may produce rich material.
